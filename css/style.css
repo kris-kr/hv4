@@ -1,0 +1,164 @@
+@import url('../fonts/https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url('../fonts/https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:regular,700&display=swap");
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('../fonts/Gilroy-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-UltraLightItalic.woff2') format('woff2'),
+        url('../fonts/Gilroy-UltraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('../fonts/Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body{
+font-family: 'Lato', sans-serif;
+}
+/* --------------- */
+body{
+	font-family: Lora;
+}
+.font {
+
+}
+.font-lora p {
+	font-weight: 700;
+	font-style: italic;
+}
+.font-gilroy {
+	font-family: Gilroy;
+	font-weight: 200;
+	font-style: italic;
+	color: rgba(0, 0, 255, 0.5);
+}
+.reguliar {
+	font-weight: 400;
+	font-style: normal;
+}
+.medium {
+	font-weight: 500;
+	font-style: normal;
+}
+.font-ubuntu {
+	font-family: Ubuntu;
+}
+.font-ubuntu .bold {
+	font-weight: 700;
+}
+.text-aling-link {
+	text-align:right;
+	text-decoration: underline;
+}
+.text-aling-text {
+	text-align:center;
+}
+.text-decoration p {
+	text-decoration: line-through;
+}
+.text-decoration span{
+	text-decoration: underline;
+	text-decoration: overline;
+}
+.text-shadow {
+	font-size: 50px;
+	text-shadow: 
+	  4px 4px 1px #300000,
+       4px 6px 1px #400000,
+       4px 8px 1px #500000,
+       4px 10px 1px #600000,
+       4px 12px 1px #700000,
+       4px 14px 1px #800000,
+       4px 16px 1px #900000,
+       4px 18px 1px #A00000,
+       4px 20px 1px #B00000,
+       4px 22px 1px #C00000,
+       4px 24px 1px #D00000,
+       4px 26px 1px #E00000,
+       4px 28px 1px #F00000,
+       4px 30px 1px #FA0000,
+       4px 32px 1px #FB0000,
+       4px 34px 1px #FC0000,
+       4px 36px 1px #FD0000,
+       4px 38px 1px #FE0000,
+       4px 40px 2px #FF0000;
+}
+.text-shadow span{
+	font-size: 50px;
+	color:aqua;
+	text-shadow: -2px -2px 2px rgb(201, 20, 177), 3px 3px 1px #000;
+}
+.text-transform {
+	text-transform: uppercase;
+	
+}
+.text-transform span{
+		text-transform: lowercase;
+	}
+	.text-transform mark{
+		text-transform: capitalize;
+	}
+.text-ident {
+	text-indent: 50px;
+	color: red;
+}
+.letterspacing {
+	letter-spacing: 2px;
+}
+.line-height {
+	line-height: 30px;
+}
+.word-spacing {
+	word-spacing: 20px;
+}
+.white-spase {
+	word-spacing: nowrap;
+	color: rgb(201, 20, 177);
+}
+
+
